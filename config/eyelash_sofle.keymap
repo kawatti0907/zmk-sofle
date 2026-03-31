@@ -83,11 +83,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC         &kp F1           &kp F2     &kp F3     &kp F4     &kp F5      &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9     &kp F10           &kp TILDE
-&kp TAB         &rgb_ug RGB_ON   &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4    &mmv MOVE_DOWN   &trans           &trans           &kp UP           &trans     &kp MINUS         &kp EQUAL
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &trans     &trans     &trans     &mkp MB5    &mmv MOVE_LEFT   &trans           &kp LEFT         &kp DOWN         &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LCTRL       &rgb_ug RGB_EFF  &trans     &mo 2      &trans     &trans      &mmv MOVE_RIGHT  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &trans     &trans            &trans
-&kp C_MUTE      &trans           &trans     &trans     &trans     &trans      &mkp LCLK        &trans           &trans           &trans           &trans     &trans
+&kp ESC         &kp F1           &kp F2           &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10           &kp TILDE
+&kp TAB         &rgb_ug RGB_ON   &rgb_ug RGB_BRI  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans    &kp UP    &trans     &kp MINUS         &kp EQUAL
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LCTRL       &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &mo 2   &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans            &trans
+&kp C_MUTE      &mo 2            &trans           &trans  &trans  &trans    &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "layer1";
