@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LANG1
   - layer2
-  - $$mdi:backspace-reverse-outline$$
+  - LEFT WIN
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
