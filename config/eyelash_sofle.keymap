@@ -87,7 +87,7 @@
 &kp TAB         &rgb_ug RGB_ON   &rgb_ug RGB_BRI  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans    &kp UP    &trans     &kp MINUS         &kp EQUAL
 &kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LCTRL       &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &mo 2   &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans            &trans
-&kp C_MUTE      &mo 2            &trans           &trans  &trans  &trans    &mkp LCLK        &trans  &trans    &trans    &trans     &trans
+&kp C_MUTE      &kp LEFT_ALT     &trans           &trans  &trans  &trans    &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "layer1";
