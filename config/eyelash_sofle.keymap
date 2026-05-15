@@ -42,9 +42,14 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
+        back_desktop {
+            bindings = <&back_desktop>;
+            key-positions = <53 54 55>;
+        };
+
+        next_desktop {
+            bindings = <&next_desktop>;
+            key-positions = <61 61 62 63>;
         };
     };
 
@@ -62,6 +67,20 @@
                 <&kp LEFT_SHIFT &mkp MB3>;
 
             label = "SHIFT_MCLK";
+        };
+
+        back_desktop: back_desktop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LC(LEFT_ARROW)>;
+            label = "BACK_DESKTOP";
+        };
+
+        next_desktop: next_desktop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp LC(RIGHT)>;
+            label = "NEXT_DESKTOP";
         };
     };
 
