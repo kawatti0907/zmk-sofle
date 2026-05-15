@@ -44,31 +44,16 @@
 
         back_desktop {
             bindings = <&back_desktop>;
-            key-positions = <53 54 55>;
+            key-positions = <30 29 28>;
         };
 
         next_desktop {
             bindings = <&next_desktop>;
-            key-positions = <61 61 62 63>;
+            key-positions = <34 34 35 36>;
         };
     };
 
     macros {
-        SHIFT_MCLK: SHIFT_MCLK {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&mkp MB3>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT &mkp MB3>;
-
-            label = "SHIFT_MCLK";
-        };
-
         back_desktop: back_desktop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
