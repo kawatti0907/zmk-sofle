@@ -72,14 +72,14 @@
         back_desktop: back_desktop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LC(LEFT_ARROW)>;
+            bindings = <&kp LEFT_WIN &kp LEFT_CONTROL &kp LEFT>;
             label = "BACK_DESKTOP";
         };
 
         next_desktop: next_desktop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp LC(RIGHT)>;
+            bindings = <&kp LEFT_WIN &kp LEFT_CONTROL &kp RIGHT>;
             label = "NEXT_DESKTOP";
         };
     };
