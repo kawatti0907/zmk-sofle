@@ -326,7 +326,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [53, 54, 55]
+- p: [30, 29, 28]
   k: '&back_desktop'
-- p: [61, 61, 62, 63]
+- p: [34, 34, 35, 36]
   k: '&next_desktop'
